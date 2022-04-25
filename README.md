@@ -2,7 +2,7 @@
 
 Collaborated with two peers to create a databases solution to a course scheduling problem for the University of Puget Sound Hispanic Studies Department. 
 
-Given a set of courses (see CourseTemplate.xlsx) and professor preferences (see ProfessorTemplate.xlsx), we populate a database using a relatonal model implemented in SQLite, and generate several possible schedules based on different ranking systems. We built a user interface for simple user interaction.
+With dozens of courses to choose from, from general intro classes to niche upper-level courses, and a variety of teaching specialties and scheduling requirements, creating a department course schedule for each semester is a non-trivial task. To optimize this process, we developed a database solution that produces top schedules based on several ranking systems. Given a set of courses to be taught this semester (see CourseTemplate.xlsx) and a set of professor abilities and preferences (see ProfessorTemplate.xlsx), we populate a database (see schema below) using a relational model implemented in SQLite, and run an algorithm we wrote to generate optimal course schedules. We built a website interface for simple user interaction with the database. 
 
 Our database schema:
 ![](schema.png)
